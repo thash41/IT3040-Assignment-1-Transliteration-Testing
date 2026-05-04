@@ -1,29 +1,41 @@
-# Assignment 1 - Transliteration Accuracy Testing
+# IT23315600 – IT3040 Assignment 1
 
-## Description
-This project tests the Chat Sinhala transliteration function in the Pixelssuite Chat Translator website.
+## Project Title
+Singlish to Sinhala Transliteration Accuracy Testing
 
-Website:
+## Student Details
+- Student ID: IT23315600
+- Student Name: Thashmila PHJ
+- Module: IT3040
+- Assignment: Assignment 1 - Option 1
+
+## Repository Link
+https://github.com/thash41/IT3040-Assignment-1-Transliteration-Testing
+
+## Website Tested
 https://www.pixelssuite.com/chat-translator
+
+## Project Description
+This project tests the Chat Sinhala transliteration function of the Pixelssuite Chat Translator website.
 
 The Excel file contains 50 negative test cases where the system fails to correctly convert chat-style Singlish input into Sinhala output.
 
-## Prerequisites
-- Python
-- Google Chrome
-- Playwright
-- openpyxl
-
-## Install Dependencies
-pip install -U pip
-pip install playwright openpyxl
-playwright install
-
-## Run Tests
-python test_automation.py --excel "Assignment 1 - Test cases.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 12000 --retry-wait-ms 4000 --retries 20 --type-delay-ms 150 --slow-mo-ms 500 --save-every 1 --keep-open
-
-## Files
+## Files Included
 - Assignment 1 - Test cases.xlsx
 - test_automation.py
 - README.md
 - GitHub_Link.txt
+
+## Technologies Used
+- Python
+- Playwright
+- OpenPyXL
+
+## How to Install Dependencies
+Run these commands inside the project folder:
+
+```bash
+python -m pip install -U pip
+python -m pip install playwright openpyxl
+python -m playwright install
+```
